@@ -1,5 +1,6 @@
 import CreatorBox from "./components/CreatorBox";
 import Genre from "./components/Genre";
+import JobDescription from "./components/JobDescription";
 import Topbar from "./components/topbar";
 import TopCreators from "./components/TopCreators";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <CreatorBox></CreatorBox>
         <Genre></Genre>
         <TopCreators></TopCreators>
+        
         
     </div>
       
