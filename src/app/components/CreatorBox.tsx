@@ -18,10 +18,10 @@ export default function CreatorBox() {
                         </Link>
                     </div>
                 </div>
-                <div className="absolute -right-3 -bottom-0 h-[160%]] w-[36%] flex justify-center items-end">
+                <div className="absolute -right-3 bottom-1 h-[160%]] w-[36%] flex justify-center items-end">
                     <img src={Char1.src} alt="Character" className="object-contain h-full w-full" />
                 </div>
             </div>
         </div>
-    );
+    )
 }

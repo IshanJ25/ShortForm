@@ -13,6 +13,6 @@ export default function Genre() {
           <div className="rounded-lg w-40 h-44 bg-white border border-gray-300"></div>
         </div>
       </div>
-    );
+    )
   }
   
