@@ -1,4 +1,3 @@
-# app/jwt_utils.py
 from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from typing import Optional
