@@ -1,4 +1,3 @@
-# app/crud.py
 from sqlalchemy.orm import Session
 from . import models, schemas
 from .auth_utils import hash_password
