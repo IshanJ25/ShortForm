@@ -19,5 +19,5 @@ export default function Categor(){
         />
       </div>
     </div>
-  );
-};
+  )
+}
