@@ -74,7 +74,7 @@ export default function(){
                 </td>
               </tr>
               <tr className="border-t border-black">
-                <td className="border border-black p-2 text-center align-middle bg-transparent">Content Form</td>
+                <td className="border border-black p-2 text-center align-middle bg-transparent">Charge</td>
                 <td className="border border-black p-2 text-center bg-transparent">
                   <input type="text" className="w-full p-2 bg-transparent border-none outline-none" />
                 </td>
@@ -87,21 +87,7 @@ export default function(){
                 <td className="border border-black p-2 text-center bg-transparent">
                   <input type="text" className="w-full p-2 bg-transparent border-none outline-none" />
                 </td>
-              </tr>
-              <tr className="border-t border-black">
-                <td className="border border-black p-2 text-center align-middle bg-transparent">Content Form</td>
-                <td className="border border-black p-2 text-center bg-transparent">
-                  <input type="text" className="w-full p-2 bg-transparent border-none outline-none" />
-                </td>
-                <td className="border border-black p-2 text-center bg-transparent">
-                  <input type="text" className="w-full p-2 bg-transparent border-none outline-none" />
-                </td>
-                <td className="border border-black p-2 text-center bg-transparent">
-                  <input type="text" className="w-full p-2 bg-transparent border-none outline-none" />
-                </td>
-                <td className="border border-black p-2 text-center bg-transparent">
-                  <input type="text" className="w-full p-2 bg-transparent border-none outline-none" />
-                </td>
+              
               </tr>
             </tbody>
           </table>

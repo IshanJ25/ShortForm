@@ -4,7 +4,11 @@ export default function Topbar() {
     return (
         <div className="bg-transparent text-black p-4 flex justify-between items-center">
             <div className="pl-10 flex items-baseline space-x-12">
-                <div className="text-3xl font-bold">ShortForm</div>
+            <Link href="/Profile">
+            <button className="text-3xl font-el-messiri">
+            ShortForm
+            </button>
+            </Link>
                 <div className="font-inter text-xl">Top Creators</div>
                 <div className="font-inter text-xl">Find Creators</div>
             </div>
