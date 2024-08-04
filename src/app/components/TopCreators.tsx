@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Sven from '../images/Sven.png';
 import Kevin from '../images/Kevin.png';
-import Thor from  '../images/Thor.png'
+import Vansh from '../images/Vansh.png'
 import MatPat from '../images/Matpat.png';
 import Ishan from '../images/Ishan.png';
 import Cleo_Abram from '../images/Cleo.png';
@@ -12,7 +12,7 @@ export default function TopCreators() {
     const creators = [
         { img: Sven, title: 'Sven Vincke' },
         { img: Kevin, title: 'Shah Kevin Ketan' },
-        { img: Thor, title: 'Thor the consumer of Food' },
+        { img: Vansh, title: 'Vansh Chani' },
         { img: MatPat, title: 'MatPat' },
         { img: Ishan, title: 'Ishan Jindal' },
         { img: Cleo_Abram, title: 'Cleo Abram' },
@@ -29,7 +29,14 @@ export default function TopCreators() {
                         {creators.map((creator, index) => (
                             <div key={index} className="relative bg-gray-400 rounded-lg w-64 h-72 flex flex-col items-center">
                                 <div className="w-full h-full relative">
-                                    <Image src={creator.img} alt={creator.title} layout="fill" objectFit="cover" className="rounded-lg" />
+                                    <Image 
+                                        src={creator.img} 
+                                        alt={creator.title} 
+                                        layout="fill" 
+                                        objectFit="cover" 
+                                        objectPosition="top" 
+                                        className="rounded-lg" 
+                                    />
                                     <div className="absolute bottom-0 w-full bg-black bg-opacity-50 p-2 text-center rounded-b-lg">
                                         <span className="text-white text-lg font-bold">{creator.title}</span>
                                     </div>
